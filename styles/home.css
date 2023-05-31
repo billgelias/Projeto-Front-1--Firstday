@@ -1,0 +1,307 @@
+nav {
+    background-color:darkolivegreen;
+    display: flex;
+    justify-content: space-between;
+    position:fixed;
+    height: 10vh; 
+    z-index: 999;
+    width: 100%;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+nav img {
+    margin-right:  50px;
+}
+nav ul li {
+    margin-right: 25px;
+    font-size: 15px;   
+}
+nav ul li button {
+    width: 150px;
+    color: darkolivegreen;
+    border-radius: 1px;
+    font-size: 20px;
+    border: 5px solid  white;
+    height: 50px;
+}
+nav ul li button:hover {
+    background-color:rgb(144, 173, 94);
+    border: 1px solid rgb(144, 173, 94);
+    color: white;
+    transition: 0.5s;
+}
+.hero {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./../assets/33.jpg);
+    background-size: cover; 
+
+}
+.hero .text-content {
+    color:rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;   
+}
+.hero .text-content h1 {
+    font-size: 70px;
+    margin-bottom: 100px;
+    letter-spacing: .5rem;
+    line-height: 2rem;
+    background-color: rgba(218, 218, 228, 0.5);
+
+}
+.hero .text-content h3 {
+    font-size: 35px;
+    margin-bottom: 100px;
+    letter-spacing: .2rem;
+    line-height: 2rem;
+    background-color: rgba(185, 185, 187, 0.5);
+}
+.hero .text-content button {
+    width: 300px;
+    background-color: rgba(58, 116, 51, 0.5);
+    border-radius: 1px;
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    height: 100px;
+    border: 1px solid rgba(58, 116, 51, 0.5);
+}
+.hero .text-content button:hover {
+    background-color: rgb(153, 190, 87);
+    border: 1px solid rgb(153, 190, 87);
+    transition: 0.5s;
+}
+.atividades h2 {
+    font-size: 70px;
+    font-weight: bold;
+    position: center;
+    margin-bottom: 50px;
+    letter-spacing: 1rem;
+    color:darkolivegreen
+    
+}
+.atividades .item {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.atividades .item1 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 80%;
+}
+.atividades .item2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.atividades .item3 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 80%;
+}
+.atividades .item4 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+.atividades .item5 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 80%;
+}
+.atividades .item6 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.atividades .item8 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    width: 80%;
+}
+.atividades .itemPhoto .imgItem {
+    width: 70%;
+    height: auto;
+}
+.atividades .itemPhoto1 .imgItem1 {
+    width: 70%;
+    height: auto;
+}
+.atividades .itemPhoto2 .imgItem2 {
+    width: 70%;
+    height: auto;
+    position: right;
+}
+.atividades .itemPhoto3 .imgItem3 {
+    width: 85%;
+    height: auto;
+}
+.atividades .itemPhoto4 .imgItem4 {
+    width: 71%;
+    height: auto;
+}
+.atividades .itemPhoto5 .imgItem5 {
+    width: 80%;
+    height: auto;
+}
+.atividades .itemPhoto6 .imgItem6 {
+    width: 70%;
+    height: auto;
+}
+
+.atividades .itemPhoto8 .imgItem8 {
+    width: 70%;
+    height: auto;
+}
+
+
+.atividades .item .item-text  {
+    display: flex;
+    font-size: 20px;
+    letter-spacing: .2rem;
+    line-height: 2rem;
+    flex-direction:column;
+    justify-content: right;
+    width:50%;
+}
+.atividades .item1 .item-text1  {
+    display: flex;
+    font-size: 20px;
+    letter-spacing: .2rem;
+    line-height: 2rem;
+    flex-direction:column;
+    justify-content: right;
+    width:88%;
+}
+.atividades .item2 .item-text2  {
+    display: flex;
+    font-size: 20px;
+    letter-spacing: .2rem;
+    line-height: 2rem;
+    flex-direction:column;
+    justify-content: right;
+    width:55%;
+}
+.atividades .item3 .item-text3  {
+    display: flex;
+    font-size: 20px;
+    letter-spacing: .2rem;
+    line-height: 2rem;
+    flex-direction:column;
+    justify-content: right;
+    width:50%;
+}
+.atividades .item4 .item-text4  {
+    display: flex;
+    font-size: 20px;
+    letter-spacing: .2rem;
+    line-height: 2rem;
+    flex-direction:column;
+    justify-content: right;
+    width:56%;
+}
+.atividades .item5 .item-text5  {
+    display: flex;
+    font-size: 20px;
+    letter-spacing: .2rem;
+    line-height: 2rem;
+    flex-direction:column;
+    justify-content: right;
+    width:50%;
+}
+.atividades .item6 .item-text6  {
+    display: flex;
+    font-size: 20px;
+    letter-spacing: .2rem;
+    line-height: 2rem;
+    flex-direction:column;
+    justify-content: right;
+    width:64%;
+}
+.atividades .item8 .item-text8  {
+    display: flex;
+    font-size: 20px;
+    letter-spacing: .2rem;
+    line-height: 2rem;
+    flex-direction:column;
+    justify-content: right;
+    width:135%;
+}
+.atividades .item .item-text h3 {
+    color:darkolivegreen;
+    font-size: 30px;
+    font-weight: 80px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.atividades .item1 .item-text1 h3 {
+    color:darkolivegreen;
+    font-size: 30px;
+    font-weight: 80px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.atividades .item2 .item-text2 h3 {
+    color:darkolivegreen;
+    font-size: 30px;
+    font-weight: 80px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.atividades .item3 .item-text3 h3 {
+    color:darkolivegreen;
+    font-size: 30px;
+    font-weight: 80px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.atividades .item4 .item-text4 h3 {
+    color:darkolivegreen;
+    font-size: 30px;
+    font-weight: 80px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.atividades .item5 .item-text5 h3 {
+    color:darkolivegreen;
+    font-size: 30px;
+    font-weight: 80px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.atividades .item6 .item-text6 h3 {
+    color:darkolivegreen;
+    font-size: 30px;
+    font-weight: 80px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.atividades .item8 .item-text8 h3 {
+    color:darkolivegreen;
+    font-size: 30px;
+    font-weight: 80px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+
+
