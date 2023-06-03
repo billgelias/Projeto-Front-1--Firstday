@@ -10,9 +10,9 @@ section {
 .container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex;
     padding: 100px;
     flex-direction: column;
-    position: center;
+    position: flex;
 }
 
