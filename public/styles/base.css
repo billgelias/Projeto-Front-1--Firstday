@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 10vh;
+}
 body { 
     font-family: 'Raleway', sans-serif; 
 }
@@ -10,9 +14,8 @@ section {
 .container {
     display: flex;
     align-items: center;
-    justify-content: flex;
+    justify-content: center;
     padding: 100px;
     flex-direction: column;
-    position: flex;
 }
 
