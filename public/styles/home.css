@@ -1,12 +1,12 @@
 nav {
     background-color:darkolivegreen;
-    text-shadow: 0.2em 0.4em 0.5em rgb(165, 165, 165);
     display: flex;
     justify-content: space-between;
     position:fixed;
     height: 10vh; 
     z-index: 999;
     width: 100%;
+    letter-spacing: .1rem;
 }
 nav ul {
     list-style: none;
@@ -14,21 +14,18 @@ nav ul {
     align-items: center;
 }
 nav img {
-    margin-right: 80px;
-    box-shadow: -6px 6px 6px 6px rgb(72, 90, 22);
-    width: 200px;
-    height: 150px;
+    border-bottom: 0.1px solid darkolivegreen;
+    border-radius: 3px;
 }
 nav ul li {
     margin-right: 25px;
     font-size: 15px;   
-    
 }
 nav ul li a {
     font-weight: bold;
     text-decoration: none;
     color: rgb(255, 255, 255);
-    text-shadow: 0.1em 0.3em 0.9em rgb(44, 44, 44);
+    text-shadow: 0.1em 0.3em 0.8em rgb(56, 55, 55);
 }
 nav ul li a:hover {
     box-shadow: 1px 6px 1px 1px darkolivegreen;
@@ -46,8 +43,8 @@ nav ul li button {
     height: 50px;
 }
 nav ul li button:hover {
-    background-color:rgb(144, 173, 94);
-    border: 1px solid rgb(144, 173, 94);
+    background-color:darkolivegreen;
+    border: 1px solid rgb(255, 255, 255);
     box-shadow: 6px 6px 6px 6px rgb(72, 90, 22);
     border: 1px bold rgba(58, 116, 51, 0.5);
     color: white;
@@ -60,11 +57,10 @@ nav ul li button:hover {
     justify-content: center;
     background-image: url(./../assets/33.jpg);
     background-size: cover; 
-
 }
 .hero .text-content {
     color:rgb(0, 0, 0);
-    text-shadow: 0.2em 0.4em 0.3em darkolivegreen;
+    text-shadow: 0.5em 0.4em 0.5em rgb(255, 255, 255);
     text-align: center;
     font-weight: bold;   
 }
@@ -73,26 +69,29 @@ nav ul li button:hover {
     margin-bottom: 100px;
     letter-spacing: .4rem;
     line-height: 4rem;
-    background-color: rgba(218, 218, 228, 0.3);
-
 }
 .hero .text-content h3 {
     font-size: 35px;
     margin-bottom: 100px;
     letter-spacing: .2rem;
     line-height: 2rem;
-    background-color: rgba(185, 185, 187, 0.3);
+    text-shadow: 0.5em 0.4em 0.5em rgb(5, 5, 5);
+    background-color: rgb(230, 220, 220, 0.4) 
 }
 .hero .text-content button {
     width: 300px;
     background-color: rgba(240, 240, 240, 0.5);
     box-shadow: 6px 6px 6px 6px rgb(72, 90, 22);
-    border-radius: 1px;
-    font-size: 25px;
+    border-radius: 45px;
+    font-size: 23px;
     color:rgb(0, 0, 0);
-    height: 100px;
+    height: 80px;
     border: 1px bold rgba(58, 116, 51, 0.5);
-    
+}
+.hero .text-content button a {
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+
 }
 .hero .text-content button:hover {
     background-color: rgb(153, 190, 87, 0.5);
@@ -108,8 +107,8 @@ nav ul li button:hover {
     justify-content: flex-end;
     align-items: flex-end;
     margin-bottom: 100px;
-    letter-spacing: 0.3rem;
-    text-shadow: 0.2em 0.4em 0.5em darkolivegreen;
+    letter-spacing: 0.2rem;
+    text-shadow: 0.1em 0.1em 0.2em darkolivegreen;
 
 }
 .atividades .item {
@@ -292,7 +291,7 @@ nav ul li button:hover {
     width:110%;
 }
 .atividades .item .item-text h3 {
-    color: darkolivegreen; text-shadow: 0.2em 0.4em 0.7em black;
+    color: darkolivegreen;
     font-size: 30px;
     text-align: right;
     font-weight: 80px;
@@ -300,7 +299,7 @@ nav ul li button:hover {
     font-weight: bold;
 }
 .atividades .item1 .item-text1 h3 {
-    color: darkolivegreen; text-shadow: 0.2em 0.4em 0.7em black;
+    color: darkolivegreen; 
     font-size: 30px;
     text-align: left;
     font-weight: 80px;
@@ -308,7 +307,7 @@ nav ul li button:hover {
     font-weight: bold;
 }
 .atividades .item2 .item-text2 h3 {
-    color: darkolivegreen; text-shadow: 0.2em 0.4em 0.7em black;
+    color: darkolivegreen; 
     font-size: 30px;
     text-align: right;
     font-weight: 80px;
@@ -316,7 +315,7 @@ nav ul li button:hover {
     font-weight: bold;
 }
 .atividades .item3 .item-text3 h3 {
-    color: darkolivegreen; text-shadow: 0.2em 0.4em 0.7em black;
+    color: darkolivegreen;
     font-size: 30px;
     text-align: left;
     font-weight: 80px;
@@ -324,7 +323,7 @@ nav ul li button:hover {
     font-weight: bold;
 }
 .atividades .item4 .item-text4 h3 {
-    color: darkolivegreen; text-shadow: 0.2em 0.4em 0.7em black;
+    color: darkolivegreen; 
     font-size: 30px;
     text-align: right;
     font-weight: 80px;
@@ -332,7 +331,7 @@ nav ul li button:hover {
     font-weight: bold;
 }
 .atividades .item5 .item-text5 h3 {
-    color: darkolivegreen; text-shadow: 0.2em 0.4em 0.7em black;
+    color: darkolivegreen; 
     font-size: 30px;
     text-align: left;
     font-weight: 80px;
@@ -340,7 +339,7 @@ nav ul li button:hover {
     font-weight: bold;
 }
 .atividades .item6 .item-text6 h3 {
-    color: darkolivegreen; text-shadow: 0.2em 0.4em 0.7em black;
+    color: darkolivegreen; 
     font-size: 30px;
     text-align: right;
     font-weight: 80px;
@@ -348,7 +347,7 @@ nav ul li button:hover {
     font-weight: bold;
 }
 .atividades .item8 .item-text8 h3 {
-    color: darkolivegreen; text-shadow: 0.2em 0.4em 0.7em black;
+    color: darkolivegreen;
     font-size: 30px;
     text-align: left;
     font-weight: 80px;
@@ -362,21 +361,23 @@ nav ul li button:hover {
     text-align: left;
 }
 .clients .text h2 {
-    font-size: 4rem;
+    font-size: 70px;
+    letter-spacing: 0.2rem;
     font-weight: bolder;
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-bottom: 2rem;
-    text-shadow: 0.2em 0.4em 0.5em darkolivegreen;
+    text-shadow: 0.1em 0.1em 0.2em rgb(74, 92, 8);
 }
 .clients .text p {
     font-size: 1.8rem;
     text-shadow: 0.2em 0.4em 0.5em darkolivegreen;
+    margin-bottom: 5rem;
 }
 .clients .containerCards {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 60px;
     padding: 0px 50px 0px 50px;
 }
 .clients .containerCards .left {
@@ -389,7 +390,7 @@ nav ul li button:hover {
 
 }
 .clients .containerCards .left .card.vertical {
-    width: 450px;
+    width: 400px;
     height: 400px;
     margin-top: 50px;
 }
@@ -401,14 +402,14 @@ nav ul li button:hover {
     padding-top: 50px;
 }
 .clients .containerCards .right .card.horizontal {
-    width: 300px;
+    width: 500px;
     height: 300px;
 }
 .clients .containerCards .right .card.retangular {
     margin-top: 40px;
-    width: 250px;
-    height: 450px;
-    margin-top:50px;
+    width: 300px;
+    height: 550px;
+    margin-top:70px;
 }
 .clients .containerCards .card {
     display: flex;
@@ -425,6 +426,7 @@ nav ul li button:hover {
     flex-direction: column;
     justify-content: space-between;
     height: 80%;
+    margin-top: 5%;
 }
 .clients .containerCards .card .cardContent .person {
     display: flex;
@@ -448,16 +450,16 @@ nav ul li button:hover {
 .clients .containerCards .card .cardContent .person span {
     font-size: 0.8rem;
     color: grey;
-    
 }
 .clients .containerCards .card h3 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
     font-weight: bolder;
-    color: darkolivegreen; text-shadow: 0.1em 0.1em 0.9em black;
+    color: darkolivegreen;
 }
 .clients .containerCards .card q {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+    font-weight: bold;
     line-height: 2rem;
     padding-left: 30px;
     position: relative;
@@ -476,11 +478,12 @@ nav ul li button:hover {
     
 }
 .atendimento .text-content h2 {
-    font-size: 4rem;
+    font-size: 70px;
     font-weight: bolder;
+    letter-spacing: 0.2rem;
     margin-top: 5rem;
     margin-bottom: 2rem;
-    text-shadow: 0.2em 0.4em 0.5em darkolivegreen;
+    text-shadow: 0.1em 0.1em 0.2em darkolivegreen;
 }
 .atendimento .text-content p {
     font-size: 1.8rem;
@@ -528,22 +531,24 @@ nav ul li button:hover {
     color: darkolivegreen; text-shadow: 0.1em 0.3em 0.4em rgb(129, 128, 128);
 }
 .photos {
-    height: 100%;
+    height: 80%;
     margin-left: 10%;
 }
 .photos .images {
     margin: 50px 0px 80px 0px;
 }
 .photos .images h2 {
-    font-size: 4rem;
+    font-size: 70px;
     font-weight: bolder;
+    letter-spacing: 0.2rem;
     margin-top: 5rem;
     margin-bottom: 3rem;
-    text-shadow: 0.2em 0.4em 0.5em darkolivegreen;
+    text-shadow: 0.1em 0.1em 0.2em darkolivegreen;
 }
 .photos .images p {
     font-size: 1.8rem;
     margin-bottom: 5rem;
+    margin-left: 100px;
     text-shadow: 0.2em 0.4em 0.5em darkolivegreen;
 }
 .photos .container .galeria {
@@ -558,17 +563,18 @@ nav ul li button:hover {
 }
 .contato {
     display: absolute;
-    margin-top: 50px;
-    margin-bottom: 30%;
+    margin-top: 30px;
+    margin-bottom: 20%;
     height: 80vh;
     
 }
 .contato .text-content h2 {
-    font-size: 4rem;
+    font-size: 70px;
     font-weight: bolder;
+    letter-spacing: 0.2rem;
     margin-top: 1rem;
     margin-bottom: 2rem;
-    text-shadow: 0.2em 0.4em 0.5em darkolivegreen;
+    text-shadow: 0.1em 0.1em 0.2em darkolivegreen;
 }
 .contato form {
     display: flex;
@@ -616,34 +622,43 @@ nav ul li button:hover {
     padding:5%;
     border-radius: 5px;
     width: 100px;
-    color: darkolivegreen;
-    box-shadow: 3px 3px 3px 3px rgb(72, 90, 22, 0.5);
+    color: rgb(17, 17, 17);
+    box-shadow: 3px 3px 3px 3px rgba(17, 17, 17, 0.2);
+    border: 1px solid rgb(0, 0, 0);
     height: 50px;
 }
 .contato form .buttonForm button:hover {
-    background-color: rgb(153, 190, 87, 0.5);
-    border: 1px solid rgb(65, 70, 58);
-    text-shadow: 0.2em 0.4em 0.5em black;
-    transition: 0.5s;
+    border: 2px solid rgb(78, 78, 78);
+    box-shadow: 6px 6px 6px 6px rgba(255, 255, 255, 0.2);
+    transition: 0.1s;
+}
+.contato form .buttonForm button a {
+    text-decoration: none;
+    color: black;
 }
 footer {
-    margin-top: 150px;
     height: 30vh;
     background-color: darkolivegreen;
-    padding: 40px 40px 0px 40px;
+    padding: 40px 40px 0px 80px;
 }
 footer .rowFooter {
     display:flex;
     justify-content: flex-start;
+    
+}
+footer .rowFooter img {
+    border-radius: 3%;
+
 }
 footer .rowFooter .footerContent {
     display: flex;
     justify-content: space-evenly;
-    width: 100%;
+    width: 100%; 
 }
 footer .rowFooter li {
     color: white;
     margin-bottom: 10px;
+    letter-spacing: .1rem;
 }
 footer .rowFooter li a {
     color: white;
@@ -662,6 +677,8 @@ footer .rowFooter h3 {
     color: white;
     font-size: 1.3rem;
     margin-bottom: 20px;
+    font-weight: bolder;
+    letter-spacing: .2rem;
 }
 footer .rowFooter .contatoFooter .socialMedia {
     display: flex;
